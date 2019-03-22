@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:layout_marginTop="75dp">
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_men"
+        android:text="Men"
+        android:width="250dp"
+        android:layout_marginTop="50dp"/>-->
+
+    <ImageButton
+        android:id="@+id/btn_men"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/vegetables"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/round_button"
+        />
+
+    <!--<Button
+        android:id="@+id/btn_women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women"
+        android:width="250dp"
+        android:layout_marginTop="50dp"/>-->
+
+    <ImageButton
+        android:id="@+id/btn_women"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/watermelon"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/round_button"
+        />
+
+    <!--<Button
+        android:id="@+id/btn_kid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:width="250dp"
+        android:text="Kid" />-->
+
+    <ImageButton
+        android:id="@+id/btn_kid"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/groceries"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:background="@drawable/round_button"
+        />
+
+</LinearLayout>
