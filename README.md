@@ -1,2 +1,2 @@
-# Fledge
-A shopping application for vegetable vendors
+# Fledge-TheShoppingApp
+best shopping app ever
